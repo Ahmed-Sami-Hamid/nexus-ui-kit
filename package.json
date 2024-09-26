@@ -1,6 +1,10 @@
 {
-  "name": "nexus-ui-kit",
+  "name": "@nexussoftware/ui-kit",
   "version": "1.0.0",
+  "author": {
+    "email": "ahmedsamideveloper@gmail.com",
+    "name": "Ahmed Sami"
+  },
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -8,7 +12,6 @@
     "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
   },
   "repository": "Ahmed-Sami-Hamid/nexus-ui-kit",
-  "author": "Ahmed Sami",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ahmed-Sami-Hamid/nexus-ui-kit/issues"
